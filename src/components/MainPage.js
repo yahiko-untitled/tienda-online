@@ -1,8 +1,8 @@
 // components/MainPage.js
 import React from 'react';
-import Header from 'C:/Docs/vs_code/Act11-Web/refuerzo-react/src/components/Header.js';
-import Card from 'C:/Docs/vs_code/Act11-Web/refuerzo-react/src/components/Card.js';
-import Footer from 'C:/Docs/vs_code/Act11-Web/refuerzo-react/src/components/Footer.js';
+import Header from './Header.js';
+import Card from './Card.js';
+import Footer from './Footer.js';
 
 const MainPage = () => {
   return (

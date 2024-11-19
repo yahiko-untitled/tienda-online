@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import MainPage from 'C:/Docs/vs_code/Act11-Web/refuerzo-react/src/components/MainPage.js';
+import MainPage from './components/MainPage.js';
 
 
 function App() {
