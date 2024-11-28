@@ -1,15 +1,16 @@
 // components/Header.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // Usamos Link para las rutas internas
 
 const Header = () => {
   return (
     <header style={styles.header}>
       <h1 style={styles.logo}>Libertalia</h1>
       <nav style={styles.nav}>
-        <a href="Inicio" style={styles.navLink}>Inicio</a>
-        <a href="Colecciones" style={styles.navLink}>Colecciones</a>
-        <a href="Ofertas" style={styles.navLink}>Ofertas</a>
-        <a href="Contacto" style={styles.navLink}>Contacto</a>
+        <Link to="/" style={styles.navLink}>Inicio</Link>
+        <Link to="/Colecciones" style={styles.navLink}>Colecciones</Link>
+        <Link to="/Ofertas" style={styles.navLink}>Ofertas</Link>
+        <Link to="/Contacto" style={styles.navLink}>Contacto</Link>
       </nav>
     </header>
   );

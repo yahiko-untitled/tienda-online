@@ -1,13 +1,12 @@
 // components/MainPage.js
 import React from 'react';
-import Header from './Header.js';
 import Card from './Card.js';
 import Footer from './Footer.js';
 
 const MainPage = () => {
   return (
     <div style={styles.mainPage}>
-      <Header />
+      
       <section style={styles.cardSection}>
         <Card title="Nuevas Colecciones" description="Explora nuestras últimas colecciones de moda." imgSrc="https://solink.com/wp-content/uploads/2023/11/how-to-sell-retail-clothing.jpg" />
         <Card title="Categorías Populares" description="Descubre nuestras categorías más buscadas." imgSrc="https://www.permanentstyle.com/wp-content/uploads/2021/04/hang-up-vintage-london-580x464.jpg" />
