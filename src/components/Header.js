@@ -11,7 +11,7 @@ const Header = () => {
         <Link to="/Colecciones" style={styles.navLink}>Colecciones</Link>
         <Link to="/Ofertas" style={styles.navLink}>Ofertas</Link>
         <Link to="/Contacto" style={styles.navLink}>Contacto</Link>
-        <Link to="/Carrito" style={styles.navLink}>Carrito</Link> {/* Nuevo enlace */}
+        <Link to="/Carrito" style={styles.navLink}>Carrito</Link> {}
       </nav>
     </header>
   );

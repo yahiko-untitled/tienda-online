@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './components/MainPage';
 import Colecciones from './components/Colecciones';
-import Carrito from './components/Carrito'; // Importamos el nuevo componente
+import Carrito from './components/Carrito'; 
 import Header from './components/Header';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/Colecciones" element={<Colecciones />} />
-          <Route path="/Carrito" element={<Carrito />} /> {/* Nueva ruta */}
+          <Route path="/Carrito" element={<Carrito />} /> {}
         </Routes>
       </div>
     </Router>
